@@ -1,5 +1,5 @@
 
-Sakai19
+NFO - FRONTEND
 =======
 
 Este é um projeto em desenvolvimento de uma **plataforma de estudos**, criada com o objetivo de facilitar a organização e acompanhamento do progresso dos alunos. O projeto foi gerado utilizando o Angular CLI (https://github.com/angular/angular-cli) versão 19.0.6.
