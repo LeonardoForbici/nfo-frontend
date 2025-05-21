@@ -1,59 +1,52 @@
-# Sakai19
+NFO - FRONTEND
+Este é um projeto em desenvolvimento de uma plataforma de estudos, criada com o objetivo de facilitar a organização e acompanhamento do progresso dos alunos. O projeto foi gerado utilizando o Angular CLI versão 19.0.6.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
+🚀 Servidor de Desenvolvimento
+Para iniciar o servidor de desenvolvimento local, execute:
 
-## Development server
-
-To start a local development server, run:
-
-```bash
+bash
+Copiar
+Editar
 ng serve
-```
+Após o servidor iniciar, abra o navegador e acesse http://localhost:4200/. A aplicação será recarregada automaticamente sempre que houver modificações nos arquivos fonte.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+🧱 Geração de Código (Scaffolding)
+O Angular CLI oferece ferramentas poderosas para gerar componentes e outros artefatos do projeto. Para gerar um novo componente, por exemplo, utilize:
 
-## Code scaffolding
+bash
+Copiar
+Editar
+ng generate component nome-do-componente
+Para ver a lista completa de esquemas disponíveis (como components, directives, pipes, entre outros), execute:
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
+bash
+Copiar
+Editar
 ng generate --help
-```
+🛠️ Build (Compilação)
+Para compilar o projeto para produção, utilize:
 
-## Building
-
-To build the project run:
-
-```bash
+bash
+Copiar
+Editar
 ng build
-```
+Os arquivos compilados serão armazenados na pasta dist/. O build de produção aplica otimizações para melhorar o desempenho da aplicação.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+🧪 Testes Unitários
+Para executar os testes unitários utilizando o Karma, execute:
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
+bash
+Copiar
+Editar
 ng test
-```
+🧪 Testes de Integração (End-to-End)
+Para executar testes de ponta a ponta (e2e), utilize:
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
+bash
+Copiar
+Editar
 ng e2e
-```
+Observação: O Angular CLI não vem com um framework de e2e configurado por padrão. Você pode escolher a ferramenta que melhor se adequar às suas necessidades (como Cypress ou Protractor).
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+📚 Recursos Adicionais
+Para mais informações sobre como utilizar o Angular CLI e ver a referência completa dos comandos, acesse a documentação oficial do Angular CLI.
